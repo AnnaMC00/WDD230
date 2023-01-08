@@ -1,0 +1,25 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, main, nav, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header, footer {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+p img { /* any image en un parrafo */
+    float: rigth; /* posicion en la pantalla */
+    margin: 10px;
+    border: 1px solid #000; /* tamano de la linea, si sera solido puntos o algo, color*/
+}
