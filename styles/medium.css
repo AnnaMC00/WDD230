@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em) {
+    
+    header, main, footer {
+        margin: 1.25rem auto;
+    }
+    
+    header, footer {
+        border-radius: 13px;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+    
+}

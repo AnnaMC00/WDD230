@@ -1,10 +1,9 @@
 body {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
-header, main, nav, footer {
-    margin: 1.25rem auto;
+header, main, footer {
     max-width: 600px;
 }
 
@@ -12,22 +11,24 @@ header, footer {
     background-color: rgb(121, 199, 161);
     color: #005335;
     text-align: center;
-    border-radius: 13px;
+    margin: -0.5rem;
 }
 
 header {
     padding: 1.5rem;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
     align-items: center;
+}
+
+h1, h2, p, li {
+    font-family: "Barlow", sans-serif;
 }
 
 img {
     border-radius: 10px;
 }
 
-main {
-    padding: 0 1rem ;
+main section p {
+    font-weight: bold;
 }
 
 div {
@@ -50,6 +51,7 @@ footer {
 
 footer p {
     margin: 0;
+    font-weight: bold;
 }
 
 #last-update {
