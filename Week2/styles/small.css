@@ -34,7 +34,8 @@ section div {
     padding: 0 0.6rem;
 }
 
-section h3 {
+section h2 {
+    font-size: 1.3rem;
     margin: 0;
     padding: 0.3rem 0.6rem;
     border-bottom: 1px solid black;
