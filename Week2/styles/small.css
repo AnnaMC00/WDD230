@@ -12,8 +12,9 @@ header, footer {
     font-weight: bold;
 }
 
-header p {
+h2 {
     font-size: 2rem;
+    padding: 0.5rem 0;
 }
 
 main {
@@ -34,7 +35,7 @@ section div {
     padding: 0 0.6rem;
 }
 
-section h2 {
+section h3 {
     font-size: 1.3rem;
     margin: 0;
     padding: 0.3rem 0.6rem;
@@ -52,6 +53,6 @@ img {
     margin-top: 15px;
 }
 
-p, h1{
+p, h1, h2{
     margin: 0;
 }
