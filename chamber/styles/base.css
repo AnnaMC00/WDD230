@@ -14,7 +14,8 @@ footer {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: "Nunito", sans-serif;
     margin: 0;
 }
@@ -23,13 +24,14 @@ p,
 a {
     font-family: "Poppins", sans-serif;
     margin: 0;
+    font-size: 16px;
 }
 
 header p {
     font-size: 14px;
 }
 
-header {
+header #header-grid {
     display: grid;
     grid-template-columns: 50px 1fr auto auto;
     align-items: center;
@@ -49,6 +51,11 @@ header h2 {
 
 header div:nth-of-type(2) {
     display: flex;
+}
+
+header div a img {
+    width: 30px;
+    margin: 0 5px;
 }
 
 nav {
@@ -80,6 +87,10 @@ ul {
     width: 100%;
 }
 
+.navigation a:hover {
+    font-weight: bold;
+}
+
 #menu::before {
     content: "≡";
     font-size: 2rem;
@@ -92,6 +103,7 @@ ul {
     right: 0;
     background-color: #03295B;
     text-align: right;
+    z-index: 1;
 }
 
 .responsive #menu {
@@ -109,7 +121,7 @@ ul {
 }
 
 .responsive a {
-    padding: 0.5rem 0.5rem 0.5rem 5rem;
+    padding: 0.5rem 0.5rem 0.5rem 10rem;
 }
 
 header p {
@@ -125,8 +137,13 @@ main {
     margin: 1rem 0;
 }
 
+img {
+    width: 100%;
+    margin: 0;
+}
+
 section {
-    height: 200px;
+    height: auto;
     background-color: #d2e1f5;
     margin: 0.5rem;
 }
@@ -136,7 +153,6 @@ section {
 }
 
 main section:nth-last-child(2) {
-    height: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -151,6 +167,55 @@ section div {
     padding: 1rem;
 }
 
+.positionparent {
+    position: relative;
+}
+
+section.positionparent {
+    position: relative;
+    padding: 0;
+    border: none;
+    background-color: #e7eef8;
+
+}
+
+#spotligth a,
+#spotligth p,
+#spotligth hr {
+    font-size: 13px;
+    margin: 0;
+}
+
+#spotligth img {
+    width: 100px;
+}
+
+.positionparent .joinus {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.positionparent div {
+    border: none;
+}
+
+#event {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0;
+    padding-left: 10px;
+}
+
+#weather {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+}
+
 footer {
     font-size: 15px;
     padding-top: 1rem;
@@ -159,6 +224,7 @@ footer {
 
 footer img {
     height: 150px;
+    width: auto;
 }
 
 footer a {

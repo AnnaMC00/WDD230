@@ -7,12 +7,21 @@ hambutton.addEventListener("click", () => {
 
 
 const date = new Date();
+
+const topBanner = document.querySelector("#top-banner");
+const day = date.getDay();
+if (day == 1 || day == 2) {
+    topBanner.style.display = "block";
+}
+else {
+    topBanner.style.display = "none";
+}
+
 const completeDate = new Intl.DateTimeFormat("en", { dateStyle: "full" }).format(date);
 document.querySelector("#date").innerText = completeDate;
 
 
-const currentDate = new Date();
-const year = currentDate.getFullYear();
+const year = date.getFullYear();
 document.querySelector("#copyrigth").innerText = year;
 
 

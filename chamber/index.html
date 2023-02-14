@@ -20,37 +20,91 @@
 
 <body>
     <header>
-        <img src="images/ba-logo.png" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo">
-        <div>
-            <h1>Buenos Aires</h1>
-            <h2>Chamber of Commerce</h2>
+        <div id="top-banner">
+            <p>Come join us for the Chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
-        <div>
-            <p></p>
-            <p></p>
+        <div id="header-grid">
+            <img src="images/ba-logo.png" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo">
+            <div>
+                <h1>Buenos Aires</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+            <div>
+                <a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Icon"></a>
+                <a href="http://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="Linkedin Icon"></a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a id="menu" href="#"></a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <p id="date"></p>
         </div>
-        <nav>
-            <ul class="navigation">
-                <li><a id="menu" href="#"></a></li>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <p id="date"></p>
     </header>
     <main>
-        <section><h3>Hero with site name and call to action</h3></section>
-        <section><h3>Event</h3></section>
-        <section><h3>Weather</h3></section>
-        <section><h3>News Release</h3></section>
-        <section>
-            <div><h3>Spotligth 1</h3></div>
-            <div><h3>Spotligth 2</h3></div>
-            <div class="none"><h3>Spotligth 3</h3></div>
+        <section class="positionparent">
+            <img src="images/hero.jpg" alt="Obelisco Argentino">
+            <button class="joinus">Join Us</button>
         </section>
-        <section class="none"><h3>Join</h3></section>
+        <section class="positionparent">
+            <img src="images/event.jpg" alt="Argentina Soccer Stadium ">
+            <div id="event">
+                <h3>Experience a football match</h3>
+                <p>Milas Turism will give you a tour to the stadium before the match!</p>
+            </div>
+        </section>
+        <section class="positionparent">
+            <img src="images/weather.jfif" alt="Weather image">
+            <div id="weather">
+                <h3>Weather</h3>
+                <p><span id="grades">35</span>°C</p>
+                <p>Partly Cloud</p>
+                <hr>
+                <p>Wind Speed: <span id="wind-speed">20</span>km/h</p>
+                <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+            </div>
+        </section>
+        <section>
+            <h3>News Release</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quod! Eaque molestias labore minima facere sit autem earum rerum numquam nulla eveniet dolores accusamus cum, ab, nesciunt voluptates suscipit dolor!</p>
+        </section>
+        <section id="spotligth">
+            <div class="positionparent">
+                <h3>Milanese tasting</h3>
+                <img src="images/milanesa.jpg" alt="Argentine Milanese">
+                <p>Try different milanese flavors.</p>
+                <hr>
+                <a href="#" class="info">ClubDeLaMilanes@gmail.com</a>
+                <a href="tel:+" class="info">tel</a>
+                <a href="#" class="info">Club de la Milanesa</a>
+            </div>
+            <div class="positionparent">
+                <h3>Spotligth 2</h3>
+                <img src="images/placeholder.jpg" alt="spotligth image">
+                <p>Explicacion</p>
+                <hr>
+                <a href="#" class="info">mail</a>
+                <a href="tel:+" class="info">tel</a>
+                <a href="#" class="info">Website</a>
+            </div>
+            <div class="none positionparent">
+                <h3>Spotligth 3</h3>
+                <img src="images/placeholder.jpg" alt="spotligth image">
+                <p>Explicacion</p>
+                <hr>
+                <a href="#" class="info">mail</a>
+                <a href="tel:+" class="info">tel</a>
+                <a href="#" class="info">Website</a>
+            </div>
+        </section>
+        <section class="none">
+            <button class="joinus">Join us now!</button>
+            <p>Why would you need to?</p>
+        </section>
     </main>
     <footer>
         <div id="footer-grid">

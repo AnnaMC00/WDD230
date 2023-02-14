@@ -37,19 +37,17 @@
 
     main {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 200px);
+        grid-template-rows: repeat(3, 1fr);
         gap: 10px;
         align-items: stretch;
     }
 
     main section {
-        height: auto;
         margin: 0;
     }
 
     main section:nth-last-child(2) {
         flex-direction: column;
-        height: auto;
     }
 
     main section:nth-child(1) {
