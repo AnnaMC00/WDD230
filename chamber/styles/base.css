@@ -16,13 +16,14 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 p,
-a {
-    font-family: "Poppins", sans-serif;
+a,
+button {
+    font-family: "Nunito", sans-serif;
     margin: 0;
     font-size: 16px;
 }
@@ -47,10 +48,6 @@ header h1 {
 
 header h2 {
     font-size: 1rem;
-}
-
-header div:nth-of-type(2) {
-    display: flex;
 }
 
 header div a img {
@@ -144,7 +141,6 @@ img {
 
 section {
     height: auto;
-    background-color: #d2e1f5;
     margin: 0.5rem;
 }
 
@@ -157,43 +153,24 @@ main section:nth-last-child(2) {
     flex-direction: column;
 }
 
-section div {
-    flex-grow: 1;
-}
-
-section,
-section div {
-    border: 1px solid #03295B;
-    padding: 1rem;
-}
-
 .positionparent {
     position: relative;
-}
-
-section.positionparent {
-    position: relative;
     padding: 0;
-    border: none;
     background-color: #e7eef8;
 
 }
 
-#spotligth a,
-#spotligth p,
-#spotligth hr {
-    font-size: 13px;
-    margin: 0;
-}
-
-#spotligth img {
-    width: 100px;
-}
-
 .positionparent .joinus {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff34;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #03295B;
+    padding: 0.5rem;
+    border: 4px solid #03295B;
+    border-radius: 5px;
 }
 
 .positionparent div {
@@ -202,18 +179,133 @@ section.positionparent {
 
 #event {
     position: absolute;
-    bottom: 20px;
-    left: 10px;
-    right: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 0;
-    padding-left: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0.3rem;
+    background-color: #03295b8e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#event h3 {
+    font-size: 2.2rem;
+    height: fit-content;
+    font-weight: lighter;
+    padding-left: 1rem;
+}
+
+#event h3 b,
+#newrelease h3 b {
+    /* ponerlo al final*/
+    font-weight: bold;
 }
 
 #weather {
     position: absolute;
-    top: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0.3rem;
+    background-color: #ffffff66;
+    color: #023d8a;
     font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+#weather h3 {
+    margin-top: auto;
+}
+
+#weather #grades {
+    font-size: 6rem;
+    font-family: "Nunito", sans-serif;
+}
+
+#weather div:first-child {
+    margin-top: 2.4rem;
+    justify-self: end;
+    line-height: 2rem;
+}
+
+#weather div:first-child p {
+    font-size: 20px;
+}
+
+#weather hr {
+    display: none;
+}
+
+#weather div:last-child {
+    justify-self: start;
+    padding-left: 1.5rem;
+    text-align: left;
+    line-height: 1.7rem;
+}
+
+#newrelease {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0.3rem;
+    background-color: #03295b8f;
+    color: white;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#newrelease p {
+    font-size: 1.3rem;
+}
+
+#newrelease h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.spotligth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0.3rem;
+    background-color: #021c3fa4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.spotligth h3 {
+    font-size: 2rem;
+}
+
+.spotligth a {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.spotligth hr {
+    margin: 1rem 30%;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-top: 1px solid white;
+    border-bottom: none;
 }
 
 footer {
@@ -234,7 +326,7 @@ footer a {
     margin: 15px 0;
 }
 
-hr {
+footer hr {
     border: none;
     border-top: 1px solid #3d5e8b;
     border-bottom: none;

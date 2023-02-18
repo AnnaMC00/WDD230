@@ -24,7 +24,7 @@
             <p>Come join us for the Chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
         <div id="header-grid">
-            <img src="images/ba-logo.png" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo">
+            <img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo">
             <div>
                 <h1>Buenos Aires</h1>
                 <h2>Chamber of Commerce</h2>
@@ -47,68 +47,114 @@
     </header>
     <main>
         <section class="positionparent">
-            <img src="images/hero.jpg" alt="Obelisco Argentino">
+            <picture>
+                <source srcset="images/wdd230-org550.jpg" media="(max-width: 526px)">
+                <source srcset="images/wdd230-org800.jpg" media="(max-width: 830px)">
+                <img src="images/wdd230-org500.jpg" alt="Obelisco Argentino">
+            </picture>
             <button class="joinus">Join Us</button>
         </section>
         <section class="positionparent">
-            <img src="images/event.jpg" alt="Argentina Soccer Stadium ">
+            <picture>
+                <source srcset="images/empanadas550.jpg" media="(max-width: 830px)">
+                <img src="images/empanadas250.jpg" alt="Argentinian Empanadas">
+            </picture>
             <div id="event">
-                <h3>Experience a football match</h3>
-                <p>Milas Turism will give you a tour to the stadium before the match!</p>
+                <h3><b>TRY</b> each province <b>EMPANADA!</b></h3>
             </div>
         </section>
         <section class="positionparent">
-            <img src="images/weather.png" alt="Weather image">
+            <picture>
+                <source srcset="images/weather550.jpg" media="(max-width: 526px)">
+                <source srcset="images/weather250x281.jpg" media="(max-width: 830px)">
+                <img src="images/weather250.jpg" alt="Weather image">
+            </picture>
             <div id="weather">
-                <h3>Weather</h3>
-                <p><span id="grades">35</span>°C</p>
-                <p>Partly Cloud</p>
-                <hr>
-                <p>Wind Speed: <span id="wind-speed">20</span>km/h</p>
-                <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+                <div>
+                    <h3><span id="grades">49</span>°F</h3>
+                    <p><b>Partly Cloud</b></p>
+                </div>
+                <div>
+                    <hr>
+                    <p><b>Wind Speed:</b> <span id="wind-speed">4</span>mph</p>
+                    <p><b>Wind Chill:</b> <span id="wind-chill">N/A</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="positionparent">
+            <picture>
+                <source srcset="images/helado550.jpg" media="(max-width: 526px)">
+                <source srcset="images/helado800.jpg" media="(max-width: 830px)">
+                <img src="images/helado500.jpg" alt="Argentina's Traditional IceCream">
+            </picture>
+            <div id="newrelease">
+                <h3>New <b>Traditional Ice Cream</b> Shop</h3>
+                <p>Try incedible offers and also a free tasting!</p>
             </div>
         </section>
         <section>
-            <h3>News Release</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quod! Eaque molestias labore minima facere sit autem earum rerum numquam nulla eveniet dolores accusamus cum, ab, nesciunt voluptates suscipit dolor!</p>
-        </section>
-        <section id="spotligth">
             <div class="positionparent">
-                <h3>Milanese tasting</h3>
-                <img src="images/milanesa.jpg" alt="Argentine Milanese">
-                <p>Try different milanese flavors.</p>
-                <hr>
-                <a href="#" class="info">ClubDeLaMilanes@gmail.com</a>
-                <a href="tel:+" class="info">tel</a>
-                <a href="#" class="info">Club de la Milanesa</a>
-            </div>
-            <div class="positionparent">
-                <h3>Spotligth 2</h3>
-                <img src="images/placeholder.jpg" alt="spotligth image">
-                <p>Explicacion</p>
-                <hr>
-                <a href="#" class="info">mail</a>
-                <a href="tel:+" class="info">tel</a>
-                <a href="#" class="info">Website</a>
+                <picture>
+                    <source srcset="images/mate550.jpg" media="(max-width: 526px)">
+                    <source srcset="images/mate400.jpg" media="(max-width: 830px)">
+                    <img src="images/mate250.jpg" alt="Argentine Milanese">
+                </picture>
+                <div class="spotligth">
+                    <div>
+                        <h3>Yerba Mate</h3>
+                        <p>Don't forget to buy some.</p>
+                        <hr>
+                        <a href="#" class="info">YerbaMate@gmail.com</a>
+                        <a href="#" class="info">LaTranquera.com</a>
+                    </div>
+                </div>
             </div>
             <div class="none positionparent">
-                <h3>Spotligth 3</h3>
-                <img src="images/placeholder.jpg" alt="spotligth image">
-                <p>Explicacion</p>
-                <hr>
-                <a href="#" class="info">mail</a>
-                <a href="tel:+" class="info">tel</a>
-                <a href="#" class="info">Website</a>
+                <img src="images/futbol250.jpg" alt="Futbol Stadium">
+                <div class="spotligth">
+                    <div>
+                        <h3>Futbol match</h3>
+                        <p>Visit different stadiums.</p>
+                        <hr>
+                        <a href="#" class="info">FutbolArg@gmail.com</a>
+                        <a href="#" class="info">FutbolParaTodos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="positionparent">
+                <picture>
+                    <source srcset="images/subte550.jpg" media="(max-width: 526px)">
+                    <source srcset="images/subte400.jpg" media="(max-width: 830px)">
+                    <img src="images/subte250.jpg" alt="spotligth image">
+                </picture>
+                <div class="spotligth">
+                    <div>
+                        <h3>Don't lose your way!</h3>
+                        <p>Buses, Subway, Taxi</p>
+                        <hr>
+                        <a href="#" class="info">MoveBA@gmail.com</a>
+                        <a href="#" class="info">MoveBA.com</a>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="none">
-            <button class="joinus">Join us now!</button>
-            <p>Why would you need to?</p>
+        <section class="none positionparent">
+            <picture>
+                <source srcset="images/avcorrientes800.jpg" media="(max-width: 830px)">
+                <img src="images/avcorrientes250.jpg" alt="Corrientes Avenue at nigth">
+            </picture>
+            <div id="joinusbanner">
+                <button class="joinus">Join us now!</button>
+                <div>
+                    <a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Icon"></a>
+                    <a href="http://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="Linkedin Icon"></a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <div id="footer-grid">
-            <img src="images/ba-logo.png" alt="Buenos Aires Chamber of Commerce Logo">
+            <img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo">
             <div>   
                 <h3>Buenos Aires<br>Chamber of Commerce</h3>
                 <p>3045 Corrientes<br>Buenos Aires, Argentina</p>
@@ -128,6 +174,7 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
