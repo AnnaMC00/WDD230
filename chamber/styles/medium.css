@@ -1,28 +1,31 @@
 @media only screen and (min-width: 527px) {
 
-    main {
+    /* ------------------MAIN ---------------- */
+
+    /* HOME PAGE */
+    #home {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    section {
+    #home section {
         grid-column: 1 / -1;
     }
 
-    main section:nth-last-child(2) {
+    #home section:nth-last-child(2) {
         flex-direction: row;
     }
 
-    section.none {
+    #home section.none {
         display: block;
     }
 
-    section:nth-child(2) {
+    #home section:nth-child(2) {
         grid-column: 1 / 3;
         grid-row: 5 / 6;
     }
 
-    section:nth-child(3) {
+    #home section:nth-child(3) {
         grid-column: 3 / 4;
         grid-row: 5 / 6;
     }
@@ -32,7 +35,7 @@
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0.3rem;
+        bottom: 0;
         background-color: #001736c7;
         display: flex;
         flex-direction: column;
@@ -69,6 +72,38 @@
         justify-content: center;
     }
 
+
+    /* DISCOVER PAGE */
+    #discover div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description {
+        top: 0;
+        height: auto;
+        background-color: #03295b9e;
+        color: white;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .description:hover {
+        background-color: transparent;
+        color: transparent;
+        transition: 0.3s;
+    }
+
+    #visitinfo {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+
+
+    /* [--------------------- FOOTER -------------------- */
     #footer-grid {
         display: grid;
         grid-template-columns: auto 4fr 1fr 4fr;

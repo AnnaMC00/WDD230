@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Planning Document</title>
+    <title>Home | BA Chamber of Commerce</title>
     <meta name="description"
-        content="Home Page for the Website Planning Document for the Chamber of Commerce Site Project. It will contain the acces to the Target Audience Page and the Design Page.">
+        content="Home Page of the Buenos Aires Chamber of Commerce. It contains access to some events and important information.">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -24,7 +24,7 @@
             <p>Come join us for the Chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
         <div id="header-grid">
-            <img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo">
+            <a href="/chamber/"><img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo"></a>
             <div>
                 <h1>Buenos Aires</h1>
                 <h2>Chamber of Commerce</h2>
@@ -36,7 +36,7 @@
             <nav>
                 <ul class="navigation">
                     <li><a id="menu" href="#"></a></li>
-                    <li><a href="#">Discover</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li>
@@ -45,7 +45,7 @@
             <p id="date"></p>
         </div>
     </header>
-    <main>
+    <main id="home">
         <section class="positionparent">
             <picture>
                 <source srcset="images/wdd230-org550.jpg" media="(max-width: 526px)">
@@ -59,7 +59,7 @@
                 <source srcset="images/empanadas550.jpg" media="(max-width: 830px)">
                 <img src="images/empanadas250.jpg" alt="Argentinian Empanadas">
             </picture>
-            <div id="event">
+            <div id="event" class="positionchild">
                 <h3><b>TRY</b> each province <b>EMPANADA!</b></h3>
             </div>
         </section>
@@ -69,7 +69,7 @@
                 <source srcset="images/weather250x281.webp" media="(max-width: 830px)">
                 <img src="images/weather250.webp" alt="Weather image">
             </picture>
-            <div id="weather">
+            <div id="weather" class="positionchild">
                 <div>
                     <h3><span id="grades">49</span>°F</h3>
                     <p><b>Partly Cloud</b></p>
@@ -87,7 +87,7 @@
                 <source srcset="images/helado800.jpg" media="(max-width: 830px)">
                 <img src="images/helado500.jpg" alt="Argentina's Traditional IceCream">
             </picture>
-            <div id="newrelease">
+            <div id="newrelease" class="positionchild">
                 <h3>New <b>Traditional Ice Cream</b> Shop</h3>
                 <p>Try incedible offers and also a free tasting!</p>
             </div>
@@ -97,9 +97,9 @@
                 <picture>
                     <source srcset="images/mate550.jpg" media="(max-width: 526px)">
                     <source srcset="images/mate400.jpg" media="(max-width: 830px)">
-                    <img src="images/mate250.jpg" alt="Argentine Milanese">
+                    <img src="images/mate250.jpg" alt="Argentine Milanese" id="imgspotligth">
                 </picture>
-                <div class="spotligth">
+                <div class="spotligth positionchild">
                     <div>
                         <h3>Yerba Mate</h3>
                         <p>Don't forget to buy some.</p>
@@ -110,8 +110,8 @@
                 </div>
             </div>
             <div class="none positionparent">
-                <img src="images/futbol250.jpg" alt="Futbol Stadium">
-                <div class="spotligth">
+                <img src="images/futbol250.jpg" alt="Futbol Stadium" id="imgspotligth">
+                <div class="spotligth positionchild">
                     <div>
                         <h3>Futbol match</h3>
                         <p>Visit different stadiums.</p>
@@ -125,9 +125,9 @@
                 <picture>
                     <source srcset="images/subte550.webp" media="(max-width: 526px)">
                     <source srcset="images/subte400.jpg" media="(max-width: 830px)">
-                    <img src="images/subte250.jpg" alt="spotligth image">
+                    <img src="images/subte250.jpg" alt="spotligth image" id="imgspotligth">
                 </picture>
-                <div class="spotligth">
+                <div class="spotligth positionchild">
                     <div>
                         <h3>Don't lose your way!</h3>
                         <p>Buses, Subway, Taxi</p>
@@ -143,7 +143,7 @@
                 <source srcset="images/avcorrientes800.jpg" media="(max-width: 830px)">
                 <img src="images/avcorrientes250.jpg" alt="Corrientes Avenue at nigth">
             </picture>
-            <div id="joinusbanner">
+            <div id="joinusbanner" class="positionchild">
                 <button class="joinus">Join us now!</button>
                 <div>
                     <a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Icon"></a>

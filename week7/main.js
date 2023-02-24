@@ -9,7 +9,7 @@ const loadImages = (image) => {
 
 const imgOptions = {
     root: null,
-    threshold: 1.0,
+    threshold: 1,
     rootMargin: "0px"
 };
 

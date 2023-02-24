@@ -28,6 +28,8 @@ button {
     font-size: 16px;
 }
 
+
+/* ------------------------ HEADER ------------------------ */
 header p {
     font-size: 14px;
 }
@@ -53,6 +55,7 @@ header h2 {
 header div a img {
     width: 30px;
     margin: 0 5px;
+    display: inline;
 }
 
 nav {
@@ -130,6 +133,10 @@ header p {
     border-radius: 5px;
 }
 
+
+/* ---------------------- MAIN ----------------------- */
+
+/* HOME */
 main {
     margin: 1rem 0;
 }
@@ -137,6 +144,7 @@ main {
 img {
     width: 100%;
     margin: 0;
+    display: block;
 }
 
 section {
@@ -177,12 +185,15 @@ main section:nth-last-child(2) {
     border: none;
 }
 
-#event {
+.positionchild {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0.3rem;
+    bottom: 0;
+}
+
+#event {
     background-color: #03295b8e;
     color: white;
     display: flex;
@@ -203,11 +214,6 @@ main section:nth-last-child(2) {
 }
 
 #weather {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0.3rem;
     background-color: #ffffff66;
     color: #023d8a;
     font-size: 20px;
@@ -249,11 +255,6 @@ main section:nth-last-child(2) {
 }
 
 #newrelease {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0.3rem;
     background-color: #03295b8f;
     color: white;
     padding-left: 1rem;
@@ -274,11 +275,6 @@ main section:nth-last-child(2) {
 }
 
 .spotligth {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0.3rem;
     background-color: #021c3fa4;
     color: white;
     display: flex;
@@ -308,6 +304,43 @@ main section:nth-last-child(2) {
     border-bottom: none;
 }
 
+
+/* DISCOVER PAGE */
+#discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#discover h2 {
+    text-align: center;
+    margin: 30px 0 20px 0;
+    font-size: 2rem;
+}
+
+#discover div {
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+#discover img {
+    display: block;
+}
+
+.description {
+    top: auto;
+    padding: 10px 0;
+    height: min-content;
+    background-color: #03295b9e;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: end;
+    padding-left: 10px;
+}
+
+
+/* ---------------------- FOOTER ----------------------- */
 footer {
     font-size: 15px;
     padding-top: 1rem;
@@ -330,4 +363,12 @@ footer hr {
     border: none;
     border-top: 1px solid #3d5e8b;
     border-bottom: none;
+}
+
+#discover picture {
+    display: flex;
+}
+
+#discover picture img {
+    display: block;
 }

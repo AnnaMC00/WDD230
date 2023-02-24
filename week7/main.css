@@ -15,6 +15,5 @@ img[data-src] {
 
 img {
     display: block;
-    justify-self: center;
     transition: filter 1s;
 }
