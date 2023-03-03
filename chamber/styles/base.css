@@ -15,14 +15,19 @@ footer {
 h1,
 h2,
 h3,
-h4 {
+h4,
+label,
+th {
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 p,
 a,
-button {
+button,
+input,
+textarea,
+td {
     font-family: "Nunito", sans-serif;
     margin: 0;
     font-size: 16px;
@@ -179,6 +184,12 @@ main section:nth-last-child(2) {
     padding: 0.5rem;
     border: 4px solid #03295B;
     border-radius: 5px;
+}
+
+.positionparent .joinus a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
 }
 
 .positionparent div {
@@ -340,6 +351,88 @@ main section:nth-last-child(2) {
 }
 
 
+/* JOIN PAGE */
+#join {
+    margin-left: 1.2rem;
+}
+
+#join h2 {
+    margin-top: 2.5rem;
+}
+
+form {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    padding: 10px 0;
+}
+
+input,
+textarea {
+    display: block;
+    padding: 10px 0 10px 2%;
+    border: 1px solid #03295B;
+    border-radius: 0.7rem;
+    min-width: 90%;
+}
+
+table {
+    margin: 2rem 0;
+}
+
+table thead {
+    text-align: center;
+}
+
+table thead th {
+    padding: 0 8px;
+    width: 100px;
+}
+
+table tbody th {
+    text-align: left;
+    padding: 5px 0;
+}
+
+table th {
+    font-size: 1rem;
+}
+
+table td {
+    text-align: center;
+}
+
+#join input[type="submit"] {
+    background-color: #093B7E;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    border-radius: 50px;
+    width: none;
+}
+
+/* THANK YOU */
+#thankyou {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 2rem 4rem 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#thankyou p {
+    font-size: 1.5rem;
+}
+
+#thankyou a {
+    font-size: inherit;
+}
+
+
 /* ---------------------- FOOTER ----------------------- */
 footer {
     font-size: 15px;
@@ -350,6 +443,7 @@ footer {
 footer img {
     height: 150px;
     width: auto;
+    display: inline;
 }
 
 footer a {

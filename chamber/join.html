@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | BA Chamber of Commerce</title>
+    <meta name="description"
+        content="Join Page of the Buenos Aires Chamber of Commerce. It contains that need to be filled for the user to becaome a member of the Chamber.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="top-banner">
+            <p>Come join us for the Chamber meet and greet Wednesday at 7:00 p.m.</p>
+        </div>
+        <div id="header-grid">
+            <a href="/chamber/index.html"><img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo"></a>
+            <div>
+                <h1>Buenos Aires</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+            <div>
+                <a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Icon"></a>
+                <a href="http://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="Linkedin Icon"></a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a id="menu" href="#"></a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html"><b>Join</b></a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <p id="date"></p>
+        </div>
+    </header>
+    <main id="join">
+        <h2>Join us in the Chamber!</h2>
+        <form action="thankyou.html" method="get" id="join-form">
+            <label for="first-name">
+                First Name
+                <input type="text" name="first-name" id="first-name" required>
+            </label>
+            <label for="last-name">
+                Last Name
+                <input type="text" name="last-name" id="last-name" required>
+            </label>
+            <label for="title"> <!-- faltaaaa -->
+                Title/Position
+                <input type="text" name="title" id="title" minlength="7" pattern="[Aa-Zz- ]">
+            </label>
+            <label for="email">
+                Mail
+                <input type="email" name="email" id="email" placeholder="something@gmail.com" required>
+            </label>
+            <label for="phone">
+                Cell Phone
+                <input type="tel" name="phone" id="phone" required>
+            </label>
+            <label for="business-name">
+                Business Name/Title
+                <input type="text" name="business-name" id="business-name" required>
+            </label>
+            <label for="business-description">
+                Tell us about your business!
+                <textarea name="business-description" id="business-description" cols="30" rows="5"></textarea>
+            </label>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th scope="col">NP</th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Trainings</th>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Advertising</th>
+                        <td>✔️</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Discounts</th>
+                        <td>✔️</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fee (per month)</th>
+                        <td>No Fee</td>
+                        <td>$10</td>
+                        <td>$20</td>
+                        <td>$30</td>
+                    </tr>
+                    <tr>
+                        <th ></th>
+                        <td>
+                            <label for="option1">
+                                <input type="radio" name="membership-level" value="non-profit" id="option1" required>
+                            </label>
+                        </td>
+                        <td>
+                            <label for="option2">
+                                <input type="radio" name="membership-level" value="bronze" id="option2">
+                        </label>
+                        </td>
+                        <td>
+                            <label for="option3">
+                                <input type="radio" name="membership-level" value="silver" id="option3">
+                            </label>
+                        </td>
+                        <td>
+                            <label for="option4">
+                                <input type="radio" name="membership-level" value="gold" id="option4">
+                            </label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" value="Join the Chamber">
+            <input type="hidden" name="date-time" id="date-time">
+        </form>
+    </main>
+    <footer>
+        <div id="footer-grid">
+            <img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo">
+            <div>   
+                <h3>Buenos Aires<br>Chamber of Commerce</h3>
+                <p>3045 Corrientes<br>Buenos Aires, Argentina</p>
+            </div>
+            <div>
+                <a href="#">info@bacc.org</a>
+                <a href="tel:+">+(485) 2584-8452</a>
+                <a href="https://www.google.com/maps/place/Obelisco/@-34.6036574,-58.3840171,16.79z/data=!4m5!3m4!1s0x4aa9f0a6da5edb:0x11bead4e234e558b!8m2!3d-34.6037389!4d-58.3815704" target="_blank">📍Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p>&copy;<span id="copyrigth"></span> BA Chamber</p>
+            <p><b>Anamilena Casariego</b></p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="last-update"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

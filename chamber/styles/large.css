@@ -95,4 +95,15 @@
     .spotligth {
         margin-bottom: 10px;
     }
+
+
+    /* --------------------- FOOTER -------------------- */
+    /* THANK YOU */
+    #thankyou-footer {
+        position: fixed;
+        bottom: 0;
+        left: auto;
+        right: auto;
+        width: 1000px;
+    }
 }

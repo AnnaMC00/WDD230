@@ -58,6 +58,10 @@
         padding: 1rem;
     }
 
+    #joinusbanner button a {
+        padding: 0;
+    }
+
     #weather hr {
         display: block;
         margin: 0.5rem 35% 0.5rem 20%;
@@ -103,7 +107,7 @@
     }
 
 
-    /* [--------------------- FOOTER -------------------- */
+    /* --------------------- FOOTER -------------------- */
     #footer-grid {
         display: grid;
         grid-template-columns: auto 4fr 1fr 4fr;
@@ -128,5 +132,13 @@
 
     footer div:last-child p:not(:last-child)::after {
         content: " | ";
+    }
+
+    /* THANK YOU PAGE */
+    #thankyou-footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
     }
 }
