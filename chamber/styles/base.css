@@ -405,6 +405,10 @@ table td {
     text-align: center;
 }
 
+table input {
+    margin: 0 auto;
+}
+
 #join input[type="submit"] {
     background-color: #093B7E;
     font-weight: bold;
@@ -412,7 +416,6 @@ table td {
     font-weight: bolder;
     color: white;
     border-radius: 50px;
-    width: none;
 }
 
 /* THANK YOU */

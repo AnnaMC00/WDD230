@@ -96,6 +96,21 @@
         margin-bottom: 10px;
     }
 
+    /* JOIN PAGE */
+    main {
+        align-items: center;
+    }
+
+    input,
+    textarea {
+        min-width: auto;
+        width: 500px;
+    }
+
+    table input {
+        width: auto;
+    }
+
 
     /* --------------------- FOOTER -------------------- */
     /* THANK YOU */
