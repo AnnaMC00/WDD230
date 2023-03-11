@@ -1,0 +1,74 @@
+[
+    {
+        "name": "El Club de la Milanesa",
+        "address": "Santa Fe 3513, CABA",
+        "phone": "+5411 0000-0001",
+        "url": "https://www.elclubdelamilanesa.com/",
+        "icon": "https://www.elclubdelamilanesa.com/images/gui/logo_mobile.jpg",
+        "membership-level": "Gold"
+    },
+    {
+        "name": "Arcor",
+        "address": "Corrientes 842, CABA",
+        "phone": "+5411 0000-0002",
+        "url": "https://www.arcor.com/en/",
+        "icon": "https://www.arcor.com/en/dist/images/logos/logo-grupo-arcor.png",
+        "membership-level": "Bronze"
+    },
+    {
+        "name": "McDonald's",
+        "address": "Caceros 7584, CABA",
+        "phone": "+5411 0000-0003",
+        "url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
+        "icon": "",
+        "membership-level": "Silver"
+    },
+    {
+        "name": "Samsung",
+        "address": "Callao 1351, CABA",
+        "phone": "+5411 0000-0004",
+        "url": "https://www.samsung.com/ar/",
+        "icon": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-mobile-240x64.png",
+        "membership-level": "Golden"
+    },
+    {
+        "name": "Uala",
+        "address": "",
+        "phone": "+5411 0000-0005",
+        "url": "https://www.uala.com.ar/",
+        "icon": "https://www.uala.com.ar/_next/static/media/logotipo-uala.f9c7a2c4.png",
+        "membership-level": "Non Profit"
+    },
+    {
+        "name": "Carrefour",
+        "address": "Mendoza 6615, CABA",
+        "phone": "+5411 0000-0006",
+        "url": "https://www.carrefour.es/",
+        "icon": "https://www.carrefour.es/dist/rendering/home-front/imagotipo_color_cms.svg?e1f00957ccb57e68f67e134c5a97fccc",
+        "membership-level": "Silver"
+    },
+    {
+        "name": "Pedidos Ya",
+        "address": "Acres 8667, CABA",
+        "phone": "+5411 0000-0007",
+        "url": "https://www.pedidosya.com.ar/",
+        "icon": "https://live.pystatic.com/webassets/AppscoreWeb/global-page/0.0.7/_next/static/media/peya.bf6a4964.svg",
+        "membership-level": "Bronze"
+    },
+    {
+        "name": "Volta",
+        "address": "Cobo 6752, CABA",
+        "phone": "+5411 0000-0008",
+        "url": "https://www.unaltravolta.com/",
+        "icon": "https://static.wixstatic.com/media/dc644f_5b1b443ba7a54f3e9283bea32e6eb4a7~mv2.png/v1/crop/x_0,y_12,w_854,h_145/fill/w_243,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logovolta-14.png",
+        "membership-level": "Gold"
+    },
+    {
+        "name": "Visa",
+        "address": "Dean Funes 245, CABA",
+        "phone": "+5411 0000-0009",
+        "url": "https://www.visa.com.ar/visa-home-ar.html",
+        "icon": "https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png",
+        "membership-level": "Silver"
+    }
+]
