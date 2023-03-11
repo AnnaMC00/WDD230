@@ -418,6 +418,50 @@ table input {
     border-radius: 50px;
 }
 
+
+/* DIRECTORY */
+#directory h2 {
+    margin-left: 10px;
+}
+
+#directory-button {
+    display: flex;
+    width: auto;
+    margin: 20px auto;
+}
+
+.directory-grid h3 {
+    display: none;
+}
+
+.directory-grid section {
+    background-color: #98c5ff;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.directory-grid img {
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.directory-list section {
+    background-color: #98c5ff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.directory-list img {
+    display: none;
+}
+
+
 /* THANK YOU */
 #thankyou {
     display: flex;

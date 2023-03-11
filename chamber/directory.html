@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover | BA Chamber of Commerce</title>
+    <title>Directory | BA Chamber of Commerce</title>
     <meta name="description"
-        content="Discover Page of the Buenos Aires Chamber of Commerce. It contains information about the city of Buenos Aires Argentina.">
+        content="Directory of the Chamber of Commerce. It will contain a list of the imformation of the business affiliated with the Chamber.">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -36,8 +36,8 @@
             <nav>
                 <ul class="navigation">
                     <li><a id="menu" href="#"></a></li>
-                    <li><a href="discover.html"><b>Discover</b></a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html"><b>Directory</b></a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -45,39 +45,10 @@
             <p id="date"></p>
         </div>
     </header>
-    <main id="discover">
-        <h2>Meet Buenos Aires, Argentina!</h2>
-        <div class="positionparent">
-            <picture>
-                <img src="imagesDiscover/placeholder.jpg" data-src="imagesDiscover/obelisco2-550.jpg" alt="Obelisco Argentino at nigth" width="550">
-            </picture>
-            <p class="positionchild description">Obelisco in Argentina. Every big celebration occurs here!</p>
-        </div>
-        <div class="positionparent">
-        <picture>
-                <img src="imagesDiscover/placeholder.jpg" data-src="imagesDiscover/mar-del-plata550.jpg" alt="Mar del Plata" width="550">
-            </picture>
-            <p class="positionchild description">Mar del Plata Beach. Beautiful in Summer but also in Winter.</p>
-        </div>
-        <div class="positionparent">
-            <picture>
-                <img src="imagesDiscover/placeholder.jpg" data-src="imagesDiscover/el-caminito550.jpg" alt="La Boca, El Caminito" width="550">
-            </picture>
-            <p class="positionchild description">El Caminito. So many things to see!</p>
-        </div>
-        <div class="positionparent">
-            <picture>
-                <img src="imagesDiscover/placeholder.jpg" data-src="imagesDiscover/puerto-madero550.jpg" alt="Puerto Madero" width="550">
-            </picture>
-            <p class="positionchild description">Puerto Madero. Cinemas, restaurants and a beautiful view!</p>
-        </div>
-        <div class="positionparent">
-            <picture>
-                <img src="imagesDiscover/placeholder.jpg" data-src="imagesDiscover/tigre550.jpg" alt="Tigre" width="550">
-            </picture>
-            <p class="positionchild description">Tigre. Have fun and enjoy the view!</p>
-        </div>
-        <p id="visitinfo"></p>
+    <main id="directory">
+        <h2>Business Directory</h2>
+        <button id="directory-button">List</button>
+        <article class="directory-grid" id="directory-display"></article>
     </main>
     <footer>
         <div id="footer-grid">

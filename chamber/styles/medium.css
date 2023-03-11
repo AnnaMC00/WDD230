@@ -107,6 +107,14 @@
     }
 
 
+    /* DIRECTORY PAGE  */
+    .directory-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 250px);
+        justify-content: center;
+    }
+
+
     /* --------------------- FOOTER -------------------- */
     #footer-grid {
         display: grid;

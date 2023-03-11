@@ -19,8 +19,8 @@
         "name": "McDonald's",
         "address": "Caceros 7584, CABA",
         "phone": "+5411 0000-0003",
-        "url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
-        "icon": "",
+        "url": "https://www.mcdonalds.com/us/en-us.html",
+        "icon": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
         "membership-level": "Silver"
     },
     {
