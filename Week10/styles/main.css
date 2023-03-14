@@ -1,0 +1,12 @@
+body {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px green;
+}
+
+figure {
+    margin: 0;
+}
