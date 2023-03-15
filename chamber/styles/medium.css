@@ -76,6 +76,12 @@
         justify-content: center;
     }
 
+    #weather-icon {
+        width: 70px;
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
+
 
     /* DISCOVER PAGE */
     #discover div {

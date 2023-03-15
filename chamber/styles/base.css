@@ -229,7 +229,7 @@ main section:nth-last-child(2) {
     color: #023d8a;
     font-size: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 3fr;
     align-items: center;
     justify-items: center;
     text-align: center;
@@ -244,13 +244,13 @@ main section:nth-last-child(2) {
     font-family: "Nunito", sans-serif;
 }
 
-#weather div:first-child {
+#weather div:nth-child(2) {
     margin-top: 2.4rem;
     justify-self: end;
     line-height: 2rem;
 }
 
-#weather div:first-child p {
+#weather div:nth-child(2) p {
     font-size: 20px;
 }
 
@@ -264,6 +264,12 @@ main section:nth-last-child(2) {
     text-align: left;
     line-height: 1.7rem;
 }
+
+#weather-icon {
+    width: 100px;
+    margin-top: 10px;
+}
+
 
 #newrelease {
     background-color: #03295b8f;
