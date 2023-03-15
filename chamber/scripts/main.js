@@ -94,6 +94,7 @@ getDirectoryData();
 
 const displayDirectory = (businesses) => {
     const article = document.querySelector("#directory-display");
+
     businesses.forEach((business) => {
         let card = document.createElement("section");
         let h3 = document.createElement("h3");
@@ -101,7 +102,6 @@ const displayDirectory = (businesses) => {
         let address = document.createElement("p");
         let phone = document.createElement("a");
         let url = document.createElement("a");
-        let level = document.createAttribute("p");
 
         h3.textContent = business.name;
         icon.setAttribute("src", business.icon);
@@ -111,8 +111,7 @@ const displayDirectory = (businesses) => {
         phone.setAttribute("href", `tel:${business.phone}`);
         phone.textContent = business.phone;
         url.setAttribute("href", business.url);
-        url.textContent = business.url;
-        level.textContent = business.membership - level;
+        url.textContent = "Visit Us!";
 
         card.appendChild(h3);
         card.appendChild(icon);
