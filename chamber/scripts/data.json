@@ -41,7 +41,7 @@
         "phone": "+5411 0000-0005",
         "url": "FutbolParaTodos.com",
         "icon": "https://play-lh.googleusercontent.com/rieZ6IUhwhXtUS14fcRJPpnJg6zVRmpytDkGTuDCjtCVaSlqPTltmXRyOS79Tsl0Jg",
-        "membership-level": "Silver"
+        "membership": "Silver"
     },
     {
         "name": "Carrefour",
@@ -49,7 +49,7 @@
         "phone": "+5411 0000-0006",
         "url": "https://www.carrefour.es/",
         "icon": "https://www.carrefour.es/dist/rendering/home-front/imagotipo_color_cms.svg?e1f00957ccb57e68f67e134c5a97fccc",
-        "membership-level": "Bronze"
+        "membership": "Bronze"
     },
     {
         "name": "Pedidos Ya",
