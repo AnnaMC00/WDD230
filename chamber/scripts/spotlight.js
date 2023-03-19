@@ -18,26 +18,25 @@ const randomBusiness = (businesses, level) => {
 }
 
 const constructSpotlights = (businesses) => {
-    const gold = randomBusiness(businesses, "Gold");
-    console.log(gold);
+    const goldlist = randomBusiness(businesses, "Gold");
 
-    gold1.innerHTML = `<h3>${gold[0].name}</h3>
-                    <p>${gold[0].description}</p>
+    gold1.innerHTML = `<h3>${goldlist[0].name}</h3>
+                    <p>${goldlist[0].description}</p>
                     <hr>
-                    <a href="#" class="info">${gold[0].mail}</a>
-                    <a href="#" class="info">${gold[0].url}</a>`;
+                    <a href="#" class="info">${goldlist[0].mail}</a>
+                    <a href="#" class="info">${goldlist[0].url}</a>`;
 
-    gold2.innerHTML = `<h3>${gold[1].name}</h3>
-                    <p>${gold[1].description}</p>
+    gold2.innerHTML = `<h3>${goldlist[1].name}</h3>
+                    <p>${goldlist[1].description}</p>
                     <hr>
-                    <a href="#" class="info">${gold[1].mail}</a>
-                    <a href="#" class="info">${gold[1].url}</a>`;
+                    <a href="#" class="info">${goldlist[1].mail}</a>
+                    <a href="#" class="info">${goldlist[1].url}</a>`;
 
-    const silver = randomBusiness(businesses, "Silver");
+    const silverlist = randomBusiness(businesses, "Silver");
 
-    silver.innerHTML = `<h3>${silver[0].name}</h3>
-                    <p>${silver[0].description}</p>
+    silver.innerHTML = `<h3>${silverlist[0].name}</h3>
+                    <p>${silverlist[0].description}</p>
                     <hr>
-                    <a href="#" class="info">${silver[0].mail}</a>
-                    <a href="#" class="info">${silver[0].url}</a>`;
+                    <a href="#" class="info">${silverlist[0].mail}</a>
+                    <a href="#" class="info">${silverlist[0].url}</a>`;
 } 
