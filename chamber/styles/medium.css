@@ -155,4 +155,11 @@
         right: 0;
         left: 0;
     }
+
+
+    /* CONTACT */
+    #contact div:nth-child(2) p {
+        display: inline;
+        margin: auto 20px;
+    }
 }

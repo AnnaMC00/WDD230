@@ -88,11 +88,11 @@
         grid-row: 3 / 4;
     }
 
-    .imgspotligth {
+    .imgspotlight {
         margin-bottom: 10px;
     }
 
-    .spotligth {
+    .spotlight {
         margin-bottom: 10px;
     }
 
@@ -116,6 +116,12 @@
     .directory-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* CONTACT */
+    #contact div:nth-child(2) {
+        width: auto;
     }
 
 

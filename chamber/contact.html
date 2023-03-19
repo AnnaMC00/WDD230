@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | BA Chamber of Commerce</title>
+    <title>Contact | BA Chamber of Commerce</title>
     <meta name="description"
-        content="Directory of the Chamber of Commerce. It will contain a list of the imformation of the business affiliated with the Chamber.">
+        content="Contact Page. It contains information about the chamber and a submit form to message the Chamber">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -37,18 +37,43 @@
                 <ul class="navigation">
                     <li><a id="menu"></a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html"><b>Directory</b></a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
                 </ul>
             </nav>
             <p id="date"></p>
         </div>
     </header>
-    <main id="directory">
-        <h2>Business Directory</h2>
-        <button id="directory-button">List</button>
-        <article class="directory-grid" id="directory-display"></article>
+    <main id="contact">
+        <h2>Contact Us!</h2>
+        <div id="info">
+            <h3>More info:</h3>
+            <p><b>Call us: <a href="tel:">11 0000-0100</a></b></p>
+            <p><b>Email us: <a href="mailto:">info@bacc.org</a></b></p>
+        </div>
+        <div id="send-message">
+            <h3>Send us a question or comment below.</h3>
+            <form action="contactthankyou.html" method="get">
+                <label for="name-company">
+                    Name/Company
+                    <input type="text" name="name-company" id="name-company" required>
+                </label>
+                <label for="email">
+                    Email
+                    <input type="email" name="email" id="email" placeholder="someone@else.com" required>
+                </label>
+                <label for="tel">
+                    Tel.
+                    <input type="tel" name="tel" id="tel">
+                </label>
+                <label for="comment">
+                    Comment/Question
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write here..." required></textarea>
+                </label>
+                <input type="submit" value="Send it">
+            </form>
+        </div>
     </main>
     <footer>
         <div id="footer-grid">
@@ -72,7 +97,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

@@ -292,7 +292,7 @@ main section:nth-last-child(2) {
     margin-bottom: 0.3rem;
 }
 
-.spotligth {
+.spotlight {
     background-color: #021c3fa4;
     color: white;
     display: flex;
@@ -301,12 +301,12 @@ main section:nth-last-child(2) {
     text-align: center;
 }
 
-.spotligth h3 {
+.spotlight h3 {
     font-size: 2rem;
     padding: 10px;
 }
 
-.spotligth a {
+.spotlight a {
     font-size: 13px;
     text-decoration: none;
     color: white;
@@ -315,7 +315,7 @@ main section:nth-last-child(2) {
     display: block;
 }
 
-.spotligth hr {
+.spotlight hr {
     margin: 1rem 30%;
     margin-bottom: 0.5rem;
     border: none;
@@ -417,7 +417,7 @@ table input {
     margin: 0 auto;
 }
 
-#join input[type="submit"] {
+input[type="submit"] {
     background-color: #093B7E;
     font-weight: bold;
     font-size: 1.5rem;
@@ -428,8 +428,14 @@ table input {
 
 
 /* DIRECTORY */
+#directory {
+    margin-left: 1.2rem;
+}
+
 #directory h2 {
     margin-left: 10px;
+    margin-top: 2.5rem;
+    text-align: center;
 }
 
 #directory-button {
@@ -470,7 +476,7 @@ table input {
 }
 
 
-/* THANK YOU */
+/* THANK YOU PAGES*/
 #thankyou {
     display: flex;
     flex-direction: column;
@@ -485,6 +491,30 @@ table input {
 
 #thankyou a {
     font-size: inherit;
+}
+
+
+/* CONTACT */
+#contact {
+    margin-left: 1.2rem;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact div:nth-child(2) {
+    border: 2px solid #03295B;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    line-height: 2;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-top: 2.5rem;
 }
 
 
