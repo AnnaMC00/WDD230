@@ -5,7 +5,7 @@
         "phone": "+5411 0000-0001",
         "url": "https://www.elclubdelamilanesa.com/",
         "icon": "https://www.elclubdelamilanesa.com/images/gui/logo_mobile.jpg",
-        "membership-level": "Gold"
+        "membership": "Bronze"
     },
     {
         "name": "Arcor",
@@ -13,15 +13,17 @@
         "phone": "+5411 0000-0002",
         "url": "https://www.arcor.com/en/",
         "icon": "https://www.arcor.com/en/dist/images/logos/logo-grupo-arcor.png",
-        "membership-level": "Bronze"
+        "membership": "Bronze"
     },
     {
-        "name": "McDonald's",
+        "name": "Yerba Mate",
+        "description": "Don't forget to buy some.",
         "address": "Caceros 7584, CABA",
+        "mail": "YerbaMate@gmail.com",
         "phone": "+5411 0000-0003",
-        "url": "https://www.mcdonalds.com/us/en-us.html",
-        "icon": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
-        "membership-level": "Silver"
+        "url": "LaTranquera.com",
+        "icon": "https://latinafy.com/images/feature_variant/33/la-tranquera-logo-1.jpg",
+        "membership": "Golden"
     },
     {
         "name": "Samsung",
@@ -29,15 +31,17 @@
         "phone": "+5411 0000-0004",
         "url": "https://www.samsung.com/ar/",
         "icon": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-mobile-240x64.png",
-        "membership-level": "Golden"
+        "membership": "Non Profit"
     },
     {
-        "name": "Uala",
-        "address": "",
+        "name": "Futbol para todos",
+        "address": "Boca 1523, CABA",
+        "description": "Visit different stadiums.",
+        "mail": "FutbolArg@gmail.com",
         "phone": "+5411 0000-0005",
-        "url": "https://www.uala.com.ar/",
-        "icon": "https://www.uala.com.ar/_next/static/media/logotipo-uala.f9c7a2c4.png",
-        "membership-level": "Non Profit"
+        "url": "FutbolParaTodos.com",
+        "icon": "https://play-lh.googleusercontent.com/rieZ6IUhwhXtUS14fcRJPpnJg6zVRmpytDkGTuDCjtCVaSlqPTltmXRyOS79Tsl0Jg",
+        "membership-level": "Silver"
     },
     {
         "name": "Carrefour",
@@ -45,7 +49,7 @@
         "phone": "+5411 0000-0006",
         "url": "https://www.carrefour.es/",
         "icon": "https://www.carrefour.es/dist/rendering/home-front/imagotipo_color_cms.svg?e1f00957ccb57e68f67e134c5a97fccc",
-        "membership-level": "Silver"
+        "membership-level": "Bronze"
     },
     {
         "name": "Pedidos Ya",
@@ -53,15 +57,17 @@
         "phone": "+5411 0000-0007",
         "url": "https://www.pedidosya.com.ar/",
         "icon": "https://live.pystatic.com/webassets/AppscoreWeb/global-page/0.0.7/_next/static/media/peya.bf6a4964.svg",
-        "membership-level": "Bronze"
+        "membership": "Bronze"
     },
     {
-        "name": "Volta",
+        "name": "Subte",
+        "description": "Don't lose your way!",
+        "mail": "MoveBA@gmai.com",
         "address": "Cobo 6752, CABA",
         "phone": "+5411 0000-0008",
-        "url": "https://www.unaltravolta.com/",
-        "icon": "https://static.wixstatic.com/media/dc644f_5b1b443ba7a54f3e9283bea32e6eb4a7~mv2.png/v1/crop/x_0,y_12,w_854,h_145/fill/w_243,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logovolta-14.png",
-        "membership-level": "Gold"
+        "url": "SubteBA.com",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Subte-logo.svg/1024px-Subte-logo.svg.png",
+        "membership": "Gold"
     },
     {
         "name": "Visa",
@@ -69,6 +75,6 @@
         "phone": "+5411 0000-0009",
         "url": "https://www.visa.com.ar/visa-home-ar.html",
         "icon": "https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png",
-        "membership-level": "Silver"
+        "membership": "Non Profit"
     }
 ]
