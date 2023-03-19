@@ -236,17 +236,13 @@ main section:nth-last-child(2) {
     text-align: center;
 }
 
-#weather h3 {
-    margin-top: auto;
-}
-
 #weather #grades {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: "Nunito", sans-serif;
 }
 
 #weather div:nth-child(2) {
-    margin-top: 2.4rem;
+    margin-top: 1rem;
     justify-self: end;
     line-height: 2rem;
 }
