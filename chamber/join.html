@@ -21,7 +21,7 @@
 <body>
     <header>
         <div id="top-banner">
-            <p>Come join us for the Chamber meet and greet Wednesday at 7:00 p.m.</p>
+            <p>Come <a href="/chamber/join.html">join us</a> for the Chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
         <div id="header-grid">
             <a href="index.html"><img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo" id="nav-logo"></a>
@@ -49,11 +49,11 @@
         <h2>Join us in the Chamber!</h2>
         <form action="thankyou.html" method="get" id="join-form">
             <label for="first-name">
-                First Name
+                First Name*
                 <input type="text" name="first-name" id="first-name" required>
             </label>
             <label for="last-name">
-                Last Name
+                Last Name*
                 <input type="text" name="last-name" id="last-name" required>
             </label>
             <label for="title">
@@ -61,15 +61,15 @@
                 <input type="text" name="title" id="title" minlength="7" pattern="[Aa-Zz- ]">
             </label>
             <label for="email">
-                Mail
+                Mail*
                 <input type="email" name="email" id="email" placeholder="something@gmail.com" required>
             </label>
             <label for="phone">
-                Cell Phone
+                Cell Phone*
                 <input type="tel" name="phone" id="phone" required>
             </label>
             <label for="business-name">
-                Business Name/Title
+                Business Name/Title*
                 <input type="text" name="business-name" id="business-name" required>
             </label>
             <label for="business-description">
@@ -78,6 +78,9 @@
             </label>
             <table>
                 <thead>
+                    <tr>
+                        <th colspan="4" id="table-name">MEMBERSHIP LEVEL*</th>
+                    </tr>
                     <tr>
                         <td></td>
                         <th scope="col">NP</th>

@@ -39,6 +39,10 @@ header p {
     font-size: 14px;
 }
 
+#top-banner a {
+    color: white;
+}
+
 header #header-grid {
     display: grid;
     grid-template-columns: 50px 1fr auto auto;
@@ -389,6 +393,11 @@ table {
 
 table thead {
     text-align: center;
+}
+
+table #table-name {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 table thead th {
