@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | BA Chamber of Commerce</title>
+    <title>////////////////////////// | BA Chamber of Commerce</title>
     <meta name="description"
-        content="Directory of the Chamber of Commerce. It will contain a list of the imformation of the business affiliated with the Chamber.">
+        content="///////////////////////////////">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -35,9 +35,9 @@
             </div>
             <nav>
                 <ul class="navigation">
-                    <li><a id="menu"></a></li>
+                    <li><a id="menu" href="#"></a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html"><b>Directory</b></a></li>
+                    <li><a href="#">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -45,11 +45,7 @@
             <p id="date"></p>
         </div>
     </header>
-    <main id="directory">
-        <h2>Business Directory</h2>
-        <button id="directory-button">List</button>
-        <article class="directory-grid" id="directory-display"></article>
-    </main>
+    <main id=""></main>
     <footer>
         <div id="footer-grid">
             <img src="images/ba-logo.webp" alt="Buenos Aires Chamber of Commerce Logo">
@@ -72,7 +68,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

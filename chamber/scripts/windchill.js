@@ -5,7 +5,6 @@ async function apiFetch() {
         const response = await fetch(urlweather);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             setValues(data);
         }
         else {
@@ -23,7 +22,8 @@ const temp = document.querySelector("#grades");
 const windspeed = document.querySelector("#wind-speed");
 const windchill = document.querySelector("#wind-chill");
 const description = document.querySelector("#weather-description");
-const icon = document.querySelector("#weather-icon");
+const iconDiv = document.querySelector("#weather-icon");
+const icon = document.createElement("img");
 
 function setValues(weatherdata) {
     const iconurl = `https://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`;
@@ -52,4 +52,5 @@ function setValues(weatherdata) {
     windspeed.textContent = ws;
     icon.setAttribute("src", iconurl);
     icon.setAttribute("alt", desc);
+    iconDiv.appendChild(icon);
 }
