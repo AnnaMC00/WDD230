@@ -11,8 +11,8 @@ hambutton.addEventListener("click", () => {
 const date = new Date();
 
 const topBanner = document.querySelector("#top-banner");
-// const day = date.getDay();
-const day = 1;
+const day = date.getDay();
+
 if (day == 1 || day == 2) {
     topBanner.style.display = "block";
 }
