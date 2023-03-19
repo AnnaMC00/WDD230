@@ -303,6 +303,7 @@ main section:nth-last-child(2) {
 
 .spotligth h3 {
     font-size: 2rem;
+    padding: 10px;
 }
 
 .spotligth a {
