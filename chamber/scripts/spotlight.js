@@ -27,7 +27,7 @@ const constructSpotlights = (businesses) => {
                     <a href="#" class="info">${gold[0].mail}</a>
                     <a href="#" class="info">${gold[0].url}</a>`;
 
-    gold1.innerHTML = `<h3>${gold[1].name}</h3>
+    gold2.innerHTML = `<h3>${gold[1].name}</h3>
                     <p>${gold[1].description}</p>
                     <hr>
                     <a href="#" class="info">${gold[1].mail}</a>
@@ -35,7 +35,7 @@ const constructSpotlights = (businesses) => {
 
     const silver = randomBusiness(businesses, "Silver");
 
-    gold1.innerHTML = `<h3>${silver[0].name}</h3>
+    silver.innerHTML = `<h3>${silver[0].name}</h3>
                     <p>${silver[0].description}</p>
                     <hr>
                     <a href="#" class="info">${silver[0].mail}</a>
