@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods | Home</title>
+    <meta name="description"
+        content="Bountiful Foods Home Page. It contains different content related to the business. Also it contents a direct acces to the Fresh page, and information about California including its weather.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree&family=Zen+Maru+Gothic:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-grid">
+            <a href="index.html"><img src="images/logo.png" alt="Bountiful Foods" id="header-logo"></a>
+            <h1>Bountiful Foods</h1>
+            <a id="menu"></a>
+        </div>
+        <nav>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li>
+                        <div>
+                            <a href="http://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon" class="media-links"></a>
+                            <a href="http://instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram Icon" class="media-links"></a>
+                            <a href="http://twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter Icon" class="media-links"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <div class="slideshow-container">
+            <div class="my-slides fade">
+                <picture>
+                    <source srcset="images/juice1small.webp" media="(max-width: 800px)">
+                    <img src="#" alt="Juice">
+                </picture>
+                <div class="text">
+                    <h3>Green Power</h3>
+                    <p>Kiwi, Green Apple & Pears</p>
+                </div>
+            </div>
+            <div class="my-slides fade">
+                <picture>
+                    <source srcset="images/juice2small.webp" media="(max-width: 800px)">
+                    <img src="#" alt="Juice">
+                </picture>
+                <div class="text">
+                    <h3>Berry Pasion</h3>
+                    <p>Berries, Berries & more Berries </p>
+                </div>
+            </div>
+            <div class="my-slides fade">
+                <picture>
+                    <source srcset="images/juice3small.webp" media="(max-width: 800px)">
+                    <img src="#" alt="Juice">
+                </picture>
+                <div class="text">
+                    <h3>Banana Berry</h3>
+                    <p>Banana, Strawberry & Raspberry</p>
+                </div>
+            </div>
+            <div class="my-slides fade">
+                <picture>
+                    <source srcset="images/juice4small.webp" media="(max-width: 800px)">
+                    <img src="#" alt="Juice">
+                </picture>
+                <div class="text">
+                    <h3>Juicy Orange</h3>
+                    <p>Super Juicy Orange & a touch of Banana</p>
+                </div>
+            </div>
+            <div class="my-slides fade">
+                <picture>
+                    <source srcset="images/juice5small.webp" media="(max-width: 800px)">
+                    <img src="#" alt="Juice">
+                </picture>
+                <div class="text">
+                    <h3>Super Apple</h3>
+                    <p>Apple & Pineapple</p>
+                </div>
+            </div>
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+        <br>
+
+    </main>
+
+    <footer>
+        <div id="footer-grid">
+            <div id="footer-media">
+                <h2>Follow us!</h2>
+                <a href="http://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon" class="media-links"></a>
+                <a href="http://instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram Icon" class="media-links"></a>
+                <a href="http://twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter Icon" class="media-links"></a>
+                <p>Don't miss any news!</p>
+            </div>
+            <hr>
+            <div id="footer-logo">
+                <img src="images/logo.png" alt="Bountiful Foods">
+                <p>BOUNTIFUL FOODS</p>
+            </div>
+            <div id="footer-info">   
+                <p>/////////////, California</p>
+                <a href="#">info@bfoods.org</a>
+                <a href="tel:+">+(485) 2584-8452</a>
+                <a href="aboutus.html">See our location and more about us!</a>
+            </div>
+        </div>
+        <hr>
+        <div id="footer-copy">
+            <p>&copy;<span id="copyrigth"></span> Bountiful Foods</p>
+            <p><b>Anamilena Casariego</b></p>
+            <p>WDD 230 Project</p>
+        </div>
+        <p>Last Modification: <span id="last-update"></span></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
