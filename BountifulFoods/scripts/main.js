@@ -6,49 +6,14 @@ hambutton.addEventListener("click", () => {
     nav.classList.toggle("responsive"), false
 });
 
+// -------------------- FOOTER ------------------
+const date = new Date();
 
-// ------------------- MAIN ---------------------
-let slideIndex = 1;
-showSlides();
-
-function currentSlide(slideNumber) {
-    showSlides(slideIndex = slideNumber);
-}
-
-function showSlides(slideNumber) {
+const year = date.getFullYear();
+document.querySelector("#copyrigth").innerText = year;
 
 
-    let slides = document.getElementsByClassName("my-slides");
-    let dots = document.getElementsByClassName("dot");
-
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-
-    if (slideNumber != null) {
-        slideIndex = slideNumber;
-
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-
-        slideIndex++;
-    }
-    else {
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-
-
-        slideIndex++;
-        setTimeout(showSlides, 8000);
-    }
-
-
-}
+const lastModif = new Date(document.lastModified);
+const lastDate = new Intl.DateTimeFormat("en-US", { year: "numeric", month: "2-digit", day: "2-digit" }).format(lastModif);
+const lastTime = new Intl.DateTimeFormat("en", { timeStyle: "medium", hour12: false }).format(lastModif);
+document.querySelector("#last-update").innerText = `${lastDate} ${lastTime}`;

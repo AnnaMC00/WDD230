@@ -1,12 +1,67 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 620px) {
 
     /* --------------------- MAIN ------------------- */
     #home {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        width: 95%;
+        margin: 0 auto;
+        grid-template-columns: minmax(auto, 350px) minmax(170px, auto);
+        grid-template-rows: 2fr 1fr;
+        justify-items: end;
+        align-items: stretch;
     }
 
     .slideshow-container {
         grid-column: 1/2;
+        grid-row: 1/-1;
+        margin: 0;
     }
+
+    #drink-count {
+        justify-self: stretch;
+        margin-bottom: 6px;
+    }
+
+    #weather {
+        grid-column: 1/-1;
+        display: flex;
+        align-items: center;
+        justify-self: stretch;
+        justify-content: space-around;
+    }
+
+    #weather hr {
+        display: none;
+    }
+
+    #coast-info {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    /* FRESH PAGE */
+    #fresh {
+        width: 620px;
+        margin: 0 auto;
+    }
+
+    #order-details {
+        left: 30%;
+        right: 30%;
+    }
+
+    /* ABOUT US PAGE */
+    #about-us-images picture:nth-child(2) {
+        display: block;
+    }
+
+    #about-us-images img {
+        width: 100%;
+    }
+
+    #about-us-images {
+        display: flex;
+        flex-direction: row;
+    }
+
 }

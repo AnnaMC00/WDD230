@@ -40,8 +40,76 @@
         </nav>
     </header>
 
-    <main id="">
-        <br><br><br><br><br><br><br><br><br><br><br>
+    <main id="fresh">
+        <div id="fresh-image">
+            <picture>
+                <source srcset="images/fruitsmall.jpg" media="(max-width: 620px)">
+                <img src="images/fruitsmall.jpg" alt="Fresh vibes" loading="lazy">
+            </picture>
+        </div>
+        <div id="fresh-form">
+            <h2>Make your own Fresh</h2>
+            <form>
+                <label for="first-name">
+                    First Name*
+                    <input type="text" name="first-name" id="first-name" required>
+                </label>
+                <label for="email">
+                    E-mail*
+                    <input type="email" name="email" id="email" required>
+                </label>
+                <label for="phone">
+                    Phone
+                    <input type="tel" name="phone" id="phone">
+                </label>
+                <label>Chose 3 fruits</label>
+                <label for="fruit1">
+                    <select name="fruit1" class="fruit" id="fruit1" required>
+                        <option value="">Select Fruit</option>
+                    </select>
+                </label>
+                <label for="fruit2">
+                    <select name="fruit2" class="fruit" id="fruit2" required>
+                        <option value="">Select Fruit</option>
+                    </select>
+                </label>
+                <label for="fruit3">
+                    <select name="fruit3" class="fruit" id="fruit3" required>
+                        <option value="">Select Fruit</option>
+                    </select>
+                </label>
+                <label for="special-instructions">
+                    Any special instruction? Let us know!
+                    <textarea name="special-instructions" id="special-instructions" cols="30" rows="5"></textarea>
+                </label>
+                <button type="button" id="button-event">Make my Drink</button>
+                <input type="hidden" name="date" id="date">
+                <div id="order-details">
+                    <h3>Your order:</h3>
+                    <p><b>First Name: </b><span id="details-first-name"></span></p>
+                    <p><b>Email: </b><span id="details-email"></span></p>
+                    <p><b>Phone:</b><span id="details-phone"></span></p>
+                    <p><b>Fruits:</b></p>
+                    <ul>
+                        <li id="details-fruit1"></li>
+                        <li id="details-fruit2"></li>
+                        <li id="details-fruit3"></li>
+                    </ul>
+                    <p><b>Special Instructions:</b><span id="details-instructions"></span></p>
+                    <p><b>Drink Specifications:</b></p>
+                    <ul>
+                        <li>Carbohydrates: <span id="carbohydrates"></span></li>
+                        <li>Protein: <span id="protein"></span></li>
+                        <li>Fat: <span id="fat"></span></li>
+                        <li>Sugar: <span id="sugar"></span></li>
+                        <li>Calories: <span id="calories"></span></li>
+                    </ul>
+                    <p><b>Order Date: </b><span id="details-date"></span></p>
+                    <button type="submit" onclick="addDrink()">Send Order</button>
+                    <button type="button" id="close-details" onclick="closeDetails()">Close</button>
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -74,6 +142,7 @@
         <p>Last Modification: <span id="last-update"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/fresh.js"></script>
 </body>
 
 </html>

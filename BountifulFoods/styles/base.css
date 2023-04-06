@@ -10,14 +10,18 @@ footer {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: "Zen Maru Gothic", sans-serif;
     margin: 0;
     color: #D64045;
 }
 
 a,
-p {
+p,
+label,
+input,
+button {
     font-family: "Zen Maru Gothic", sans-serif;
     margin: 0;
 }
@@ -122,8 +126,13 @@ main {
     padding: 10px 10px;
 }
 
+/* ----- HOME ----- */
+.galery-container {
+    display: none;
+}
+
 /* SLIDESHOW */
-.my-slides {
+.slides {
     display: none;
     width: 100%;
 }
@@ -135,13 +144,13 @@ main {
     width: fit-content;
 }
 
-.my-slides img {
+.slides img {
     width: 100%;
 }
 
 .text {
     font-size: 1rem;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     position: absolute;
     bottom: 0;
     top: 77%;
@@ -155,7 +164,7 @@ main {
 }
 
 .text h3 {
-    color: #000000;
+    color: inherit;
 }
 
 .dots-container {
@@ -196,6 +205,185 @@ main {
     to {
         opacity: 1;
     }
+}
+
+
+/* FRESH AND DRINK COUNT */
+#fresh-link,
+#drink-count {
+    background-color: #ffbd242b;
+    /*CAMBIAR COLOR?----------------*/
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#drink-count {
+    background-color: #edff4e4a;
+}
+
+#fresh-link h2 {
+    padding: 15px 0;
+    font-size: 1.8rem;
+}
+
+#fresh-link p {
+    line-height: 1.6;
+}
+
+#fresh-link a {
+    width: fit-content;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    color: #D64045;
+    border: 3px double #D64045;
+}
+
+/* BEACHES */
+#coast-info img {
+    width: 100%;
+}
+
+#coast-info {
+    position: relative;
+}
+
+#coast-info h3 {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: #ffffff8e;
+    border-bottom-right-radius: 8px;
+}
+
+/* WEATHER */
+#weather {
+    text-align: center;
+    background-color: #40a1d654;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+#grades-today {
+    font-size: 4rem;
+}
+
+.grades {
+    font-size: 3rem;
+}
+
+#weather hr {
+    border: none;
+    border-top: 8px solid #40b0d636;
+    width: 80%;
+    margin: 15px auto 0 auto;
+}
+
+/* ----- FRESH PAGE ----- */
+#fresh {
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+}
+
+#fresh-image img {
+    width: 100%;
+    margin: 0;
+}
+
+#fresh-form {
+    padding: 0 10px;
+}
+
+input,
+label,
+textarea,
+select {
+    display: block;
+}
+
+#fresh-form form {
+    padding: 10px 0;
+}
+
+input,
+select,
+textarea {
+    padding: 9px;
+    border-radius: 10px;
+    border: 1px solid #D64045;
+    margin-top: 5px;
+    width: 80%;
+}
+
+label {
+    padding: 10px 0;
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #d64045da;
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#order-details {
+    display: none;
+    position: fixed;
+    height: fit-content;
+    top: 50px;
+    bottom: 50px;
+    left: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    font-size: 1rem;
+    box-shadow: 1px 1px 20px #8c8c8c;
+}
+
+#order-details button {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* ABOUT US PAGE  */
+#about-us {
+    margin: 0;
+    padding: 0;
+}
+
+#about-us-images img {
+    width: 100%;
+}
+
+#about-us-images picture:nth-child(2) {
+    display: none;
+}
+
+#about-us-description {
+    padding: 10px;
+}
+
+#contact-info {
+    padding: 10px;
+}
+
+#contact-info a {
+    display: block;
+    padding: 2px 0;
+}
+
+#map iframe {
+    width: 100%;
 }
 
 

@@ -42,50 +42,50 @@
 
     <main id="home">
         <div class="slideshow-container">
-            <div class="my-slides fade">
+            <div class="slides fade">
                 <picture>
-                    <source srcset="images/juice1small.webp" media="(max-width: 800px)">
-                    <img src="#" alt="Juice">
+                    <source srcset="images/juice1small.webp" media="(max-width: 950px)">
+                    <img src="#" alt="Green Power Juice" loading="lazy">
                 </picture>
                 <div class="text">
                     <h3>Green Power</h3>
                     <p>Kiwi, Green Apple & Pears</p>
                 </div>
             </div>
-            <div class="my-slides fade">
+            <div class="slides fade">
                 <picture>
-                    <source srcset="images/juice2small.webp" media="(max-width: 800px)">
-                    <img src="#" alt="Juice">
+                    <source srcset="images/juice2small.webp" media="(max-width: 950px)">
+                    <img src="#" alt="Berry Pasion Juice" loading="lazy">
                 </picture>
                 <div class="text">
                     <h3>Berry Pasion</h3>
                     <p>Berries, Berries & more Berries </p>
                 </div>
             </div>
-            <div class="my-slides fade">
+            <div class="slides fade">
                 <picture>
-                    <source srcset="images/juice3small.webp" media="(max-width: 800px)">
-                    <img src="#" alt="Juice">
+                    <source srcset="images/juice3small.webp" media="(max-width: 950px)">
+                    <img src="#" alt="Banana Berry Juice" loading="lazy">
                 </picture>
                 <div class="text">
                     <h3>Banana Berry</h3>
                     <p>Banana, Strawberry & Raspberry</p>
                 </div>
             </div>
-            <div class="my-slides fade">
+            <div class="slides fade">
                 <picture>
-                    <source srcset="images/juice4small.webp" media="(max-width: 800px)">
-                    <img src="#" alt="Juice">
+                    <source srcset="images/juice4small.webp" media="(max-width: 950px)">
+                    <img src="#" alt="Juicy Orange Juice" loading="lazy">
                 </picture>
                 <div class="text">
                     <h3>Juicy Orange</h3>
                     <p>Super Juicy Orange & a touch of Banana</p>
                 </div>
             </div>
-            <div class="my-slides fade">
+            <div class="slides fade">
                 <picture>
-                    <source srcset="images/juice5small.webp" media="(max-width: 800px)">
-                    <img src="#" alt="Juice">
+                    <source srcset="images/juice5small.webp" media="(max-width: 950px)">
+                    <img src="#" alt="Super Apple Juice" loading="lazy">
                 </picture>
                 <div class="text">
                     <h3>Super Apple</h3>
@@ -100,7 +100,97 @@
                 <span class="dot" onclick="currentSlide(5)"></span>
             </div>
         </div>
-        <br>
+        <div class="galery-container">
+            <div class="images">
+                <picture>
+                    <source srcset="images/juice1.webp" media="(min-width: 950px)">
+                    <img src="#" alt="Green Power Juice" loading="lazy">
+                </picture>
+                <div class="text">
+                    <h3>Green Power</h3>
+                    <p>Kiwi, Green Apple & Pears</p>
+                </div>
+            </div>
+            <div class="images">
+                <picture>
+                    <source srcset="images/juice2.webp" media="(min-width: 950px)">
+                    <img src="#" alt="Berry Pasion Juice" loading="lazy">
+                </picture>
+                <div class="text">
+                    <h3>Berry Pasion</h3>
+                    <p>Berries, Berries & more Berries </p>
+                </div>
+            </div>
+            <div class="images">
+                <picture>
+                    <source srcset="images/juice3.webp" media="(min-width: 950px)">
+                    <img src="#" alt="Banana Berry Juice" loading="lazy">
+                </picture>
+                <div class="text">
+                    <h3>Banana Berry</h3>
+                    <p>Banana, Strawberry & Raspberry</p>
+                </div>
+            </div>
+            <div class="images">
+                <picture>
+                    <source srcset="images/juice4.webp" media="(min-width: 950px)">
+                    <img src="#" alt="Juicy Orange Juice" loading="lazy">
+                </picture>
+                <div class="text">
+                    <h3>Juicy Orange</h3>
+                    <p>Super Juicy Orange & a touch of Banana</p>
+                </div>
+            </div>
+            <div class="images">
+                <picture>
+                    <source srcset="images/juice5.webp" media="(min-width: 950px)">
+                    <img src="#" alt="Super Apple Juice" loading="lazy">
+                </picture>
+                <div class="text">
+                    <h3>Super Apple</h3>
+                    <p>Apple & Pineapple</p>
+                </div>
+            </div>
+        </div>
+        <div id="fresh-link">
+            <h2>Make your own</h2>
+            <p>From our variety of fruits, try selecting 3 and discover new flavors!</p>
+            <a href="fresh.html">Let's do it!</a>
+        </div>
+        <div id="drink-count">
+            <h2>..Drinks Count..</h2>
+            <p>Special drinks made: <span id="number-drinks"></span></p>
+        </div>
+        <div id="coast-info">
+            <picture>
+                <source srcset="images/los-angeles-small.webp" media="(max-width: 620px)">
+                <source srcset="images/los-angeles-medium.webp" media="(max-width: 950px)">
+                <img src="images/los-angeles-large.webp" alt="Los Angeles Beach" loading="lazy">
+            </picture>
+            <h3>Discover Los Angeles</h3>
+        </div>
+        <div id="weather">
+            <div id="weather-today">
+                <h3><span id="grades-today"></span>°F</h3>
+                <p id="description"></p>
+                <p><b>Humidity: </b><span id="humidity"></span>%</p>
+            </div>
+            <hr>
+            <div class="weather-forecast">
+                <h4><span class="grades"></span>°F</h4>
+                <p><b>Tomorrow</b></p>
+            </div>
+            <hr>
+            <div class="weather-forecast">
+                <h4><span class="grades"></span>°F</h4>
+                <p><b>In two days</b></p>
+            </div>
+            <hr>
+            <div class="weather-forecast">
+                <h4><span class="grades"></span>°F</h4>
+                <p><b>In three days</b></p>
+            </div>
+        </div>
 
     </main>
 
@@ -119,7 +209,7 @@
                 <p>BOUNTIFUL FOODS</p>
             </div>
             <div id="footer-info">   
-                <p>/////////////, California</p>
+                <p>Carlsbad, California</p>
                 <a href="#">info@bfoods.org</a>
                 <a href="tel:+">+(485) 2584-8452</a>
                 <a href="aboutus.html">See our location and more about us!</a>
@@ -134,6 +224,7 @@
         <p>Last Modification: <span id="last-update"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/home.js"></script>
 </body>
 
 </html>
